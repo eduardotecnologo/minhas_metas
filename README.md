@@ -23,4 +23,4 @@ To connect to Postgres database - please install either of 'pg', 'postgres', '@n
  ❯ npm i dayjs
  ❯ npm i fastify-type-provider-zod
  https://github.com/turkerdev/fastify-type-provider-zod
- 
+ ❯ npm i @fastify/cors

@@ -7,10 +7,13 @@ import { createGoal } from "../usecases/create-goal";
 import { getWeekPendingGoals } from "../usecases/get-week-pending-goals";
 import { createGoalCompletion } from "../usecases/create-goal-completion";
 import z from 'zod';
-import { title } from "process";
-import { get } from "http";
+import fastifyCors from '@fastify/cors';
 
 const app = fastfy().withTypeProvider<ZodTypeProvider>();
+
+app.register(fastifyCors,{
+    origin: '*',
+});
 
 // Add schema validator and serializer
 app.setValidatorCompiler(validatorCompiler);
