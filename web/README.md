@@ -48,3 +48,13 @@ export default tseslint.config({
   },
 })
 ```
+
+
+## Setup Project
+
+❯ npm i @biomejs/biome -D
+
+## CSS
+
+https://tailwindcss.com
+❯ npm install -D tailwindcss postcss autoprefixer
