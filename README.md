@@ -21,3 +21,6 @@ To connect to Postgres database - please install either of 'pg', 'postgres', '@n
  ❯ npx drizzle-kit generate
  ❯ npm i @paralleldrive/cuid2
  ❯ npm i dayjs
+ ❯ npm i fastify-type-provider-zod
+ https://github.com/turkerdev/fastify-type-provider-zod
+ 
