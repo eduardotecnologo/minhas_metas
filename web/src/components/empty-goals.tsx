@@ -18,7 +18,6 @@ export function EmptyGoals(){
                 <Plus className='size-4'/> 
                 </Button>
             </DialogTrigger>
-                
     </div>
     )
 }
